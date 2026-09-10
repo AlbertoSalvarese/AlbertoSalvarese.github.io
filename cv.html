@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download Alberto Salvarese’s technical or academic CV.">
+  <title>CV | Alberto Salvarese</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="papers.css">
+  <style>
+    .cv-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin: 2rem 0 3rem; }
+    .cv-option { display: flex; flex-direction: column; padding: 1.75rem; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); }
+    .cv-option h2 { font-family: Georgia, serif; font-size: 1.4rem; font-weight: normal; text-transform: none; letter-spacing: normal; color: var(--text); border: 0; padding: 0; }
+    .cv-option p { color: #555; margin-bottom: 1.5rem; }
+    .cv-option a { align-self: flex-start; margin-top: auto; padding: .5rem .9rem; border: 1px solid var(--accent); border-radius: 4px; font-family: system-ui, sans-serif; font-size: .9rem; }
+    .cv-option a:hover { background: var(--accent); color: white; text-decoration: none; }
+    @media (max-width: 600px) { .cv-options { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="paper-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header><nav aria-label="Primary navigation"><a class="nav-name" href="index.html">Alberto Salvarese</a><a class="back-link" href="index.html">&larr; Home</a></nav></header>
+  <main id="main">
+    <div class="paper-heading"><h1>CV</h1><p>Choose the version that best fits your interests.</p></div>
+    <div class="cv-options">
+      <article class="cv-option"><h2>Technical CV</h2><p>A concise overview of my technical skills, quantitative projects, and research experience for internships and industry roles.</p><a href="resume.pdf" target="_blank" rel="noopener">Open technical CV (PDF)</a></article>
+      <article class="cv-option"><h2>Academic CV</h2><p>My academic background, publications, conference presentations, and research activities.</p><a href="cv.pdf" target="_blank" rel="noopener">Open academic CV (PDF)</a></article>
+    </div>
+  </main>
+  <footer><p>&copy; 2026 Alberto Salvarese</p></footer>
+</body>
+</html>
